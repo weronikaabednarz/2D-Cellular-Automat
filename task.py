@@ -97,10 +97,10 @@ def main():
     boundary_type = "periodic"  # Warunek graniczny - periodyczny
 
     # Stan początkowy: Glider
-    glider(board, 5, 5)
+    #glider(board, 5, 5)
 
     # Stan początkowy: Oscylator
-    #oscilator(board, 0, 0)
+    oscilator(board, 0, 0)
 
     # Stan początkowy: Niezmienny
     #stationary(board, 10, 0)
